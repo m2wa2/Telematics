@@ -1,0 +1,40 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --primary-color: #c20000;
+  --secondary-color: #006;
+  --accent-color: #1e3a8a;
+  --background: #f4f6f8;
+  --text-dark: #1e293b;
+  --text-light: #64748b;
+  --white: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0f172a;
+    --text-dark: #f8fafc;
+    --text-light: #94a3b8;
+    --white: #1e293b;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: var(--background);
+  max-width: 100vw;
+  color: var(--text-dark);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=src_app_globals_css_0w3-wzy._.single.css.map*/
