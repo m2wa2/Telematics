@@ -1,0 +1,15 @@
+# ============================================================
+# Matrix Telematic - TrueHost Node.js App Config
+# Place this file in: /home/matrixt1/telematics.matrixtelematic.co.ke/
+# ============================================================
+
+# --- Environment Variables ---
+SetEnv NEXTAUTH_SECRET matrix-truehost-super-secret-change-me-2024
+SetEnv NEXTAUTH_URL https://telematics.matrixtelematic.co.ke
+SetEnv DATABASE_URL file:./prisma/dev.db
+SetEnv NODE_ENV production
+
+# --- Proxy all requests to the Node.js app ---
+Options -MultiViews
+RewriteEngine On
+RewriteRule ^(.*)$ http://localhost:3000/$1 [P,L]
