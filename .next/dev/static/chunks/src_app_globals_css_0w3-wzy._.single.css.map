@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/globals.css"],"sourcesContent":[":root {\n  --primary-color: #c20000; /* Matrix Corporate Red */\n  --secondary-color: #000066; /* Matrix Corporate Blue */\n  --accent-color: #1e3a8a; /* Deep Blue Accent */\n  --background: #f4f6f8;\n  --text-dark: #1e293b;\n  --text-light: #64748b;\n  --white: #ffffff;\n}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    --background: #0f172a;\n    --text-dark: #f8fafc;\n    --text-light: #94a3b8;\n    --white: #1e293b;\n  }\n}\n\n* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nhtml,\nbody {\n  max-width: 100vw;\n  overflow-x: hidden;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n  background-color: var(--background);\n  color: var(--text-dark);\n}\n\na {\n  color: inherit;\n  text-decoration: none;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;AAUA;EACE;;;;;;;;AAQF;;;;;;AAMA;;;;;;;;AASA"}}]
-}
