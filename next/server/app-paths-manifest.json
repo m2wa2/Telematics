@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/bookings/page": "app/admin/bookings/page.js",
+  "/admin/faqs/page": "app/admin/faqs/page.js",
+  "/admin/login/page": "app/admin/login/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/bookings/route": "app/api/bookings/route.js",
+  "/api/chat/route": "app/api/chat/route.js",
+  "/api/faq/route": "app/api/faq/route.js",
+  "/page": "app/page.js"
+}
